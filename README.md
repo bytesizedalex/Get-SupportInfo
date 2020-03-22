@@ -56,11 +56,13 @@ The following summarises the data captured -
     > Export PNP Device driver information from CIM (Win32_PnPSignedDriver)
     > Generate PowerCfg Power Scheme Report, including currently active scheme
     > Generate battery report if battery CIM instance exists
-    > Generate system power report
+    > Generate system power report - Test for elevated access and export if running as Administrator
 
 All output is saved to C:\Support\Logs\ and is then added to an archive file. Following archive creation the Logs folder is cleared of all files. Archive files are not removed automatically as support staff may wish to capture multiple data sets during troubleshooting.
 
 PowerShell transcription is used to capture logging information, the log file is located at 'C:\Support\LogFile.txt'
+
+The function is designed for Active Directory domain joined machines. Certain data captures will fail to work on a non-domain joined system or will have data missing.
 
 Please note - on completion the function will clear the contents of $exportFolder. By default this is set to C:\Support\Logs.
 
