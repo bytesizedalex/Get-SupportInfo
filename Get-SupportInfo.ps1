@@ -61,6 +61,7 @@
     > Generate PowerCfg Power Scheme Report, including currently active scheme
     > Generate battery report if battery CIM instance exists
     > Generate system power report - Test for elevated access and export if running as Administrator
+    > Generate DirectX Diagnostic Report
 
     All output is saved to C:\Support\Logs\ and is then added to an archive file. Following archive creation the Logs folder is cleared of all files. Archive files are not removed automatically as support staff may wish to capture multiple data sets during troubleshooting.
     
@@ -123,6 +124,7 @@ function Get-SupportInfo {
         $gpresultLocation = "$env:SystemRoot\System32\gpresult.exe"
         $powerCfgLocation = "$env:SystemRoot\System32\powercfg.exe"
         $netshLocation = "$env:SystemRoot\System32\netsh.exe"
+        $directxDiagLocation = "$env:SystemRoot\System32\dxdiag.exe"
         $gsiTempOutput = "Temp Variable for Redirected Output"
         
         # Define date and time for timestamp purposes
@@ -1144,6 +1146,11 @@ function Get-SupportInfo {
                     [Security.Principal.WindowsBuiltInRole] "Administrator")) {
             Start-Process -RedirectStandardOutput $gsiTempOutput -Wait -NoNewWindow -FilePath $powerCfgLocation -ArgumentList "/SYSTEMPOWERREPORT /DURATION $powerCfgDuration /OUTPUT $exportFolder\SystemPowerReport.html"
         }
+
+        # Gather DirectX Diagnostic Report
+        Write-Verbose -Message 'Gather DirectX Diagnostic Report'
+        Start-Process -NoNewWindow -Wait -FilePath $directxDiagLocation -ArgumentList "/t $exportFolder\DirectXDiagnostics.txt"
+
         # Generate Support Archive
         Write-Verbose -Message 'Generate Support Archive'
         Compress-Archive -Path $exportFolder -DestinationPath "$archiveFolder\$env:COMPUTERNAME-$timeStamp"
