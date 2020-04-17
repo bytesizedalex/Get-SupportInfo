@@ -57,6 +57,7 @@ The following summarises the data captured -
     > Generate PowerCfg Power Scheme Report, including currently active scheme
     > Generate battery report if battery CIM instance exists
     > Generate system power report - Test for elevated access and export if running as Administrator
+    > Generate DirectX Diagnostic Report
 
 All output is saved to C:\Support\Logs\ and is then added to an archive file. Following archive creation the Logs folder is cleared of all files. Archive files are not removed automatically as support staff may wish to capture multiple data sets during troubleshooting.
 
