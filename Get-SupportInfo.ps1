@@ -75,7 +75,7 @@
 .EXAMPLE
    Get-SupportInfo
 .EXAMPLE
-   Get-SupportInfo - Verbose
+   Get-SupportInfo -Verbose
 .INPUTS
 
 .OUTPUTS
