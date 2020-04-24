@@ -76,17 +76,10 @@
    Get-SupportInfo
 .EXAMPLE
    Get-SupportInfo -Verbose
-.INPUTS
-
-.OUTPUTS
-
-.NOTES
-
-.COMPONENT
-
-.ROLE
-
-.FUNCTIONALITY
+.LINK
+https://github.com/bytesizedalex/Get-SupportInfo
+.LINK
+https://www.bytesizedalex.com
 
 #>
 function Get-SupportInfo {
@@ -112,7 +105,7 @@ function Get-SupportInfo {
         Write-Verbose -Message 'Start PowerShell Transcription Logging'
         $ErrorActionPreference = "SilentlyContinue"
         Stop-Transcript | Out-Null
-        Start-Transcript -Path 'C:\Support\LogFile.txt' -Append | Out-Null
+        Start-Transcript -Path 'C:\Support\LogFile.txt' -Append -IncludeInvocationHeader | Out-Null
 
         # Variables
         Write-Verbose -Message 'Defining Variables and Preferences'
