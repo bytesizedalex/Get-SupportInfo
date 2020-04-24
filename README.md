@@ -1,5 +1,7 @@
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
 
+### Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.
+
 This function will generate and output various log files and support information to assist in troubleshooting computer issues. The exported data is added to an archive file which can be attached to support tickets or forwarded from service desk to senior support.
 
 The function requires a directory named 'Support' exist at 'C:\Support\'. The function will attempt to create this directory if it does not exist. As part of my standard build this is created in the operating system deployment process. If you have limited users ability to write or create directories on this drive or location you will need to amend the function.
