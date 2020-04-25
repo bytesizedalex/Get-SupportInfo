@@ -6,7 +6,7 @@
 
 Please review the code of conduct - be excellent to each other!
 
-* [Contributor Covenant Code of Conduct](Contributor_Covenant_Code_of_Conduct.md
+* [Contributor Covenant Code of Conduct](Contributor_Covenant_Code_of_Conduct.md)
 
 ## Contributor Guidelines
 
