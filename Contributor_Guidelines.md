@@ -10,7 +10,8 @@ In short, be excellent to each other.
 
 ## Style Guidelines
 
-Code style guidelines help to ensure consistent formatting and readability. Pull requests that do not conform to our coding practices may still be accepted if they are re-formatted however it is important to
+Code style guidelines help to ensure consistent formatting and readability. Pull requests that do not conform to our coding practices may still be accepted if they are re-formatted.
+
 Please do not submit a PR which simply changes the formatting of our existing code.
 
 To help you write code which adheres to our guidelines, note the following:
