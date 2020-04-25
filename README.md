@@ -2,6 +2,20 @@
 
 ### Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.
 
+## Contributor Convenant Code of Conduct
+
+Please review the code of conduct - be excellent to each other!
+
+* [Contributor Covenant Code of Conduct](Contributor_Covenant_Code_of_Conduct.md
+
+## Contributor Guidelines
+
+Please review the contributor guidelines before submitting requests.
+
+* [Contributor Guidelines](Contributor_Guidelines.md)
+
+
+## Readme
 This function will generate and output various log files and support information to assist in troubleshooting computer issues. The exported data is added to an archive file which can be attached to support tickets or forwarded from service desk to senior support.
 
 The function requires a directory named 'Support' exist at 'C:\Support\'. The function will attempt to create this directory if it does not exist. As part of my standard build this is created in the operating system deployment process. If you have limited users ability to write or create directories on this drive or location you will need to amend the function.
