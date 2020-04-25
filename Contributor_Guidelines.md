@@ -4,7 +4,7 @@ Contribution of time and effort to this repo is greatly appreciated. To assist y
 
 ## Code of Conduct
 
-Please ensure you familiarise yourself with our code of conduct: Contributor Covenant Code of Conduct
+Please ensure you familiarise yourself with our code of conduct: [Contributor Covenant Code of Conduct](Contributor_Covenant_Code_of_Conduct.md)
 
 In short, be excellent to each other.
 
