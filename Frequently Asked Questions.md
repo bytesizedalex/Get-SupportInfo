@@ -17,7 +17,7 @@ Troubleshooting complex issues is a difficult process, lack of adequate informat
 
 If you do not run this script with Administrator permissions certain captures will be skipped. Please review the help comments to see which exports require Administrator permissions.
 
-Additionally this script is designed purely with Windows 10 systems in mind. A concious decision was made not to include code support for legacy systems as my target platform both at home and with my current employer is Windows 10. This is not to say the script will not work on legacy versions of Windows but it is untested and certain cmdlets will not exist on these older operating systems.
+Additionally this script is designed purely with Windows 10 systems in mind. A conscious decision was made not to include code support for legacy systems as my target platform both at home and with my current employer is Windows 10. This is not to say the script will not work on legacy versions of Windows but it is untested and certain cmdlets will not exist on these older operating systems.
 
 
 ## Why are there so many PSCustomObjects used?

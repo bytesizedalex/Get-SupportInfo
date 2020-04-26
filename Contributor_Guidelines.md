@@ -43,7 +43,7 @@ It is important to include appropriate documentation and help when submitting a 
 
 Comments and help within your code should be included where new features or changes are being implemented. When submitting a PR for a bug fix there may already be inline comments/help - if this is the case you should review and ensure your change does not invalidate the existing help.
 
-A review of the existing code will help your understand where and how help comments and console feedback are used. You should try to emulate this style to avoid issues with your PR.
+A review of the existing code will help you understand where and how help comments and console feedback are used. You should try to emulate this style to avoid issues with your PR.
 
 ## Misc
 
