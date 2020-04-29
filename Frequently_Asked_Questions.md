@@ -3,6 +3,16 @@
 Below you will find answers to commonly asked questions, if you do not find an answer to your question please open an issue or contact me on Twitter/via the feedback page on my blog.
 
 
+## What Windows client operating system versions are supported?
+
+This function was designed for Windows 10 clients.
+
+
+## When will you support other Windows client operating system versions?
+
+There are no plans to support legacy versions of Windows. This function is written to target Windows 10 only. I do understand many organisations are still running legacy Windows clients. You are welcome to fork this code and add that functionality but I do not intend to accept pull requests or issues asking for this to be added to the current code set.
+
+
 ## Why is there no option to choose certain data to gather rather than everything each time?
 
 This script is designed to create a point in time data capture which can be used by all support teams within the business. The goal was to avoid teams generating a support bundle which only included the data they need, then passing the ticket to another team which then has to create another bundle. By capturing all data at the same time we can be assured that the information a team needs is always in the support bundle. Additionally, if we take a capture at a later date it may very well miss the data we need because the machine state has changed since the original capture.
@@ -23,11 +33,6 @@ Additionally this script is designed purely with Windows 10 systems in mind. A c
 ## Why are there so many PSCustomObjects used?
 
 During function creation it was determined many cmdlets ouput data that doesn't neatly map into a CSV or where we may wish less/more information output. It was felt the easiest way to manage this was through custom objects.
-
-
-## When will you support other Windows client operating system versions?
-
-There are no plans to support legacy versions of Windows. This function is written to target Windows 10 only. While I do understand many organisations are still running legacy Windows client versions the extra work to code and test is something I do not have the time for currently.
 
 
 ## Will there be a version for Windows Server operating systems?
