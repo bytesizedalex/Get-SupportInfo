@@ -14,6 +14,10 @@ Please review the contributor guidelines before submitting requests.
 
 * [Contributor Guidelines](Contributor_Guidelines.md)
 
+## Frequently Asked Questions
+
+Please review the frequently asked questions, they may include information you are looking for!
+* [Frequently Asked Questions](Frequently_Asked_Questions.md)
 
 ## Readme
 This function will generate and output various log files and support information to assist in troubleshooting computer issues. The exported data is added to an archive file which can be attached to support tickets or forwarded from service desk to senior support.
