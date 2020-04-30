@@ -1,4 +1,4 @@
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](Contributor_Covenant_Code_of_Conduct.md)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
 
 ### Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.
 
@@ -6,13 +6,13 @@
 
 Please review the code of conduct - be excellent to each other!
 
-* [Contributor Covenant Code of Conduct](Contributor_Covenant_Code_of_Conduct.md)
+* [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md)
 
 ## Contributor Guidelines
 
 Please review the contributor guidelines before submitting requests.
 
-* [Contributor Guidelines](Contributor_Guidelines.md)
+* [Contributor Guidelines](CONTRIBUTING.md)
 
 ## Frequently Asked Questions
 
